@@ -12,11 +12,11 @@ A simple **Electron desktop application** that allows you to select an image and
 
 ## ✨ Features
 
-* Select images directly from your local machine
-* Resize images by width and/or height
-* Simple and clean user interface
-* Cross-platform (Windows, macOS, Linux)
-* Developer tools enabled automatically in development mode
+- Select images directly from your local machine
+- Resize images by width and/or height
+- Simple and clean user interface
+- Cross-platform (Windows, macOS, Linux)
+- Developer tools enabled automatically in development mode
 
 ---
 
@@ -24,8 +24,8 @@ A simple **Electron desktop application** that allows you to select an image and
 
 ### Prerequisites
 
-* **Node.js** (LTS recommended)
-* **npm** (comes with Node.js)
+- **Node.js** (LTS recommended)
+- **npm** (comes with Node.js)
 
 ### Install Dependencies
 
@@ -65,16 +65,16 @@ There are multiple ways to package Electron applications. A recommended tool is 
 
 The application behavior changes depending on the `NODE_ENV` value:
 
-* **development**
+- **development**
 
-  * DevTools are enabled
-  * DevTools open automatically
-  * DevTools are available in the menu bar
+  - DevTools are enabled
+  - DevTools open automatically
+  - DevTools are available in the menu bar
 
-* **production**
+- **production**
 
-  * DevTools are disabled
-  * Cleaner and more secure UI
+  - DevTools are disabled
+  - Cleaner and more secure UI
 
 ---
 
@@ -82,10 +82,10 @@ The application behavior changes depending on the `NODE_ENV` value:
 
 This project was created to practice and understand:
 
-* Electron app structure
-* Main vs Renderer process
-* IPC communication basics
-* Desktop UI development using web technologies
+- Electron app structure
+- Main vs Renderer process
+- IPC communication basics
+- Desktop UI development using web technologies
 
 ---
 
