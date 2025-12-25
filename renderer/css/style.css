@@ -1,0 +1,116 @@
+body {
+  background: #f6f8fa;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  padding: 2.5rem 2rem 2rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  margin-bottom: 1.2rem;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #222;
+  letter-spacing: 0.01em;
+}
+.label {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+  margin-top: 1.1rem;
+  align-self: flex-start;
+}
+form {
+  width: 100%;
+}
+.input {
+  width: 90%;
+	margin: 0 auto 0.5rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  transition: border 0.2s;
+}
+.input:focus {
+  border: 1.5px solid #3bb77e;
+  outline: none;
+  background: #fff;
+}
+.btn {
+  width: 100%;
+  padding: 0.8rem 0;
+  background: linear-gradient(90deg, #3bb77e 0%, #43e97b 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 1px 4px rgba(59, 183, 126, 0.08);
+}
+.btn:hover {
+  background: linear-gradient(90deg, #43e97b 0%, #3bb77e 100%);
+}
+.info {
+  font-size: 0.97rem;
+  color: #888;
+  margin-top: 1.2rem;
+  text-align: center;
+  word-break: break-all;
+}
+.input-file {
+  color: #222;
+  font-weight: 1000;
+}
+.output {
+  color: #3bb77e;
+  font-weight: 600;
+}
+.about-info {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.about-version {
+  font-size: 1.05rem;
+  color: #3bb77e;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.about-license {
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 1.2rem;
+}
+.about-description {
+  font-size: 0.92rem;
+  color: #666;
+  line-height: 1.5;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+}

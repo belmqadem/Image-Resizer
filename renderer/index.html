@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/renderer.js" defer></script>
+    <title>Image Resizer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="./images/logo.svg" class="logo" alt="Logo" />
+        <div class="title">Image Resizer</div>
+
+        <button id="select-image-btn" type="button" class="btn">
+          Select Image
+        </button>
+
+        <form id="img-form" class="hidden">
+          <label for="width" class="label">Width</label>
+          <input
+            type="number"
+            name="width"
+            id="width"
+            class="input"
+            placeholder="Width"
+            min="1"
+          />
+          <label for="height" class="label">Height</label>
+          <input
+            type="number"
+            name="height"
+            id="height"
+            class="input"
+            placeholder="Height"
+            min="1"
+          />
+          <button type="submit" class="btn">Resize</button>
+        </form>
+
+        <div class="info">
+          <strong>File:</strong> <span id="filename" class="input-file"></span>
+        </div>
+
+        <div class="info">
+          <strong>Output Folder:</strong>
+          <span id="output-path" class="output"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
